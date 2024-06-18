@@ -1,50 +1,12 @@
-// Home.tsx
-"use client";
-import "./page.css";
-
-import GSAP from "@/app/gsap";
-
-export default function Home() {
-  return (
-    <>
-      <GSAP />
-      <section className="panel">
-        <h1 className="header-section">Scroll to see the before/after</h1>
-      </section>
-
-      <section className="comparisonSection">
-        <div className="comparisonImage beforeImage">
-          <video
-            loop
-            autoPlay
-            muted
-            src="https://www.apple.com/105/media/us/ipad-pro/2024/97d7edf3-aac0-443d-9731-38d40ff50951/anim/m4-chip/large.mp4"
-          />
-        </div>
-        <div className="comparisonImage afterImage">
-          <svg
-            className="mask-text hide-for-base"
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 1920 1080"
-            style={{ transform: "matrix(1, 0, 0, 1, 0, 0)" }}
-            xmlSpace="preserve"
-          >
-            <g>
-              <g>
-                <path
-                  d="M1364.68,484.97c-6.48,10.3-13,20.64-19.56,31.01c-6.56,10.37-13.11,20.74-19.66,31.11
+<svg class="mask-text hide-for-base" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="transform: matrix(1, 0, 0, 1, 0, 0);" xml:space="preserve">
+				  								    <g>
+				  								    <g>
+				  								        <path d="M1364.68,484.97c-6.48,10.3-13,20.64-19.56,31.01c-6.56,10.37-13.11,20.74-19.66,31.11
 				  								        c-6.56,10.37-13.11,20.71-19.66,31.01c-6.56,10.3-13.07,20.64-19.56,31.01v1.73h99.4V453.96h-1.51
-				  								        C1377.65,464.33,1371.16,474.67,1364.68,484.97z"
-                />
-              </g>
-              <g>
-                <path
-                  d="M0,0v1080h1920V0H0z M614.8,351.95c4.86-10.55,10.37-19.29,16.53-26.2c7.85-9.34,17.75-17.09,29.7-23.26
+				  								        C1377.65,464.33,1371.16,474.67,1364.68,484.97z"></path>
+				  								    </g>
+                                                        <g>
+				  								        <path d="M0,0v1080h1920V0H0z M614.8,351.95c4.86-10.55,10.37-19.29,16.53-26.2c7.85-9.34,17.75-17.09,29.7-23.26
 				  								        c11.95-6.17,23.35-9.43,34.19-9.81c0.56,2.43,0.84,5.32,0.84,8.69c0,11.21-2.15,22.09-6.44,32.65
 				  								        c-4.3,10.56-9.81,19.94-16.53,28.16c-7.29,8.78-16.44,16.12-27.46,22c-11.02,5.88-21.48,8.83-31.39,8.83
 				  								        c-2.06,0-4.02-0.18-5.88-0.56c-0.19-0.56-0.38-1.59-0.56-3.08c-0.19-1.49-0.28-3.08-0.28-4.77
@@ -62,13 +24,7 @@ export default function Home() {
 				  								        C785.55,612.33,783.17,618.97,778.59,631.48z M1182.41,718.44h-58.34V507.77h-1.69l-84.09,210.68h-41.06l-84.09-210.68h-1.91
 				  								        v210.68h-58.13v-311.8h75.41l88.59,224.07h1.3l88.38-224.07h75.63V718.44z M1487.63,661.4h-41.05v57.05h-62.23V661.4h-154.93
 				  								        v-54.67c8.21-13.25,16.49-26.58,24.85-39.97c8.35-13.4,16.71-26.76,25.06-40.08c8.35-13.32,16.71-26.65,25.06-39.97
-				  								        c8.35-13.32,16.71-26.68,25.06-40.08c8.35-13.4,16.64-26.72,24.85-39.97h92.26v202.47h41.05V661.4z"
-                />
-              </g>
-            </g>
-          </svg>
-        </div>
-      </section>
-    </>
-  );
-}
+				  								        c8.35-13.32,16.71-26.68,25.06-40.08c8.35-13.4,16.64-26.72,24.85-39.97h92.26v202.47h41.05V661.4z"></path>
+				  								    </g>
+				  								    </g>
+				  								</svg>
